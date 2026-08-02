@@ -205,6 +205,20 @@ class SyllabusTab(QWidget):
         header.setStyleSheet("font-size: 18px; font-weight: 700;")
         root.addWidget(header)
 
+        self.onboarding = QLabel(
+            "No courses yet.\n\n"
+            "To get started: ① Import syllabus JSON (pick a file in the "
+            "same structure as data/sample_syllabus.json), or ② add courses "
+            "one at a time — pick a semester from the dropdown, then \"Add "
+            "course\".\n\n"
+            "Mark topics Completed as you study them; the Checklist tab and "
+            "grade model track your progress automatically.")
+        self.onboarding.setProperty("panel", True)
+        self.onboarding.setProperty("muted", True)
+        self.onboarding.setWordWrap(True)
+        self.onboarding.setVisible(False)
+        root.addWidget(self.onboarding)
+
         toolbar = QHBoxLayout()
         toolbar.addWidget(QLabel("Semester"))
         self.semester_combo = QComboBox()
@@ -374,10 +388,15 @@ class SyllabusTab(QWidget):
             self._show_drawer(None)
 
         # "no data" hint
+        total_courses = sum(
+            1 for _sem, _code, _course in all_courses(self.broker))
         if not rows:
+            self.onboarding.setVisible(total_courses == 0)
             self.drawer_title.setText("No courses — import syllabus JSON or add one")
             if not self.drawer.isHidden():
                 self.drawer.show()
+        else:
+            self.onboarding.setVisible(False)
 
     def _on_semester_filter(self, _index):
         value = self.semester_combo.currentData()

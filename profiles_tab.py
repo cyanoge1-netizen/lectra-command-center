@@ -171,6 +171,17 @@ class ProfilesTab(QWidget):
         title.setStyleSheet("font-size: 16px; font-weight: 700;")
         root.addWidget(title)
 
+        self.onboarding = QLabel(
+            "Fill in your details below and save. Your name, institute and "
+            "CGPA show up in the Home Cockpit, and a photo is included in "
+            "your backups. Start with your Full Name and Course, then add "
+            "your instructors on the right.")
+        self.onboarding.setProperty("panel", True)
+        self.onboarding.setProperty("muted", True)
+        self.onboarding.setWordWrap(True)
+        self.onboarding.setVisible(False)
+        root.addWidget(self.onboarding)
+
         top = QHBoxLayout()
         self.student_photo_box, self.student_photo, pick = \
             _photo_label(card, "Change photo")
@@ -297,6 +308,11 @@ class ProfilesTab(QWidget):
             edit.setText(str(student.get(key, "") or ""))
         self.cgpa_spin.setValue(float(student.get("cgpa") or 0.0))
         self._load_student_photo(student.get("photo_path", ""))
+
+        # Empty-state onboarding hint: visible until the profile has content.
+        empty = (not str(student.get("full_name", "") or "").strip()
+                 and not float(student.get("cgpa") or 0.0))
+        self.onboarding.setVisible(empty)
 
         instructors = self.broker.get("profile.instructors", []) or []
         self.instructor_list.blockSignals(True)
