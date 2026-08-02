@@ -1,0 +1,7 @@
+{
+  "name": "Lectro Note (Navy / Teal / Gold)",
+  "description": "Decorated lecture-note template with Definition / Example / Solution / H.W. boxes and a built-in TikZ icon library.",
+  "default_font": "Latin Modern Roman",
+  "subject_tags": ["Discrete Math", "Mathematics", "General"],
+  "boxes": ["defbox", "examplebox", "theorembox", "hwbox", "rulebox", "notebox"]
+}

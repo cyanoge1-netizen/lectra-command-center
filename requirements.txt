@@ -2,5 +2,13 @@ PyQt6
 numpy
 scikit-learn
 pyqtgraph
+jinja2
+pymupdf
 # Optional: video/audio downloads in the Materials tab (media_backend.py)
 # yt-dlp
+# Optional: OCR for images / scanned PDFs in the Notes tab
+# pytesseract
+# Pillow
+# Optional: offline translation (MarianMT) in the Notes tab — large download
+# transformers
+# torch

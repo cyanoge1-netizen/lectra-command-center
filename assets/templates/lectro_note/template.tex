@@ -1,0 +1,264 @@
+% ============================================================
+%  LECTRO NOTE TEMPLATE (XeLaTeX) — navy / teal / gold
+%  Converted from the note-taking toolkit MasterTemplate.
+%  Jinja uses square-bracket variables and percent-blocks.
+%  Body content is injected into the content slot below.
+% ============================================================
+
+\documentclass[11pt,a4paper]{article}
+
+% ===== Page & Font Setup =====
+\usepackage[a4paper,margin=2.2cm,headheight=26pt]{geometry}
+\usepackage{fontspec}
+[% if font_path and font_file %]
+\setmainfont{[[ font_file ]]}[Path=[[ font_path ]]/]
+[% else %]
+\setmainfont{Latin Modern Roman}
+[% endif %]
+
+[% if language and language != "english" %]
+\usepackage{polyglossia}
+\setdefaultlanguage{[[ language ]]}
+[% endif %]
+
+% ===== Color Palette (Navy / Teal / Gold) =====
+\usepackage[table]{xcolor}
+\definecolor{navy}{HTML}{0B2545}
+\definecolor{teal}{HTML}{147D75}
+\definecolor{gold}{HTML}{C9A227}
+\definecolor{lightteal}{HTML}{E7F3F2}
+\definecolor{lightgold}{HTML}{FBF3DD}
+
+% ===== Boxes =====
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+\newtcolorbox{defbox}[1][]{
+  colback=lightteal, colframe=teal, coltitle=white,
+  fonttitle=\bfseries, colbacktitle=teal,
+  title={Definition},
+  breakable, boxrule=0.8pt, arc=2pt, #1
+}
+
+\newtcolorbox{examplebox}[1][]{
+  colback=lightgold, colframe=gold, coltitle=navy,
+  fonttitle=\bfseries, colbacktitle=lightgold,
+  title={Example},
+  breakable, boxrule=0.8pt, arc=2pt, #1
+}
+
+\newtcolorbox{theorembox}[1][]{
+  colback=white, colframe=navy, coltitle=white,
+  fonttitle=\bfseries, colbacktitle=navy,
+  title={Solution},
+  breakable, boxrule=1pt, arc=2pt, #1
+}
+
+\newtcolorbox{hwbox}[1][]{
+  colback=navy!5, colframe=gold, coltitle=navy,
+  fonttitle=\bfseries, colbacktitle=lightgold,
+  title={H.W.},
+  breakable, boxrule=1.2pt, arc=2pt, #1
+}
+
+\newtcolorbox{rulebox}[1][Rules]{
+  colback=white, colframe=navy!60, coltitle=white,
+  fonttitle=\bfseries, colbacktitle=navy!60,
+  title={#1},
+  breakable, boxrule=0.7pt, arc=2pt
+}
+
+\newtcolorbox{notebox}[1][Note]{
+  colback=teal!5, colframe=teal!70, coltitle=white,
+  fonttitle=\bfseries, colbacktitle=teal!70,
+  title={#1},
+  breakable, boxrule=0.7pt, arc=2pt
+}
+
+% ===== Header / Footer =====
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.8pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{teal}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\color{navy}\bfseries [[ subject ]]}
+\fancyhead[R]{\small\color{navy}\bfseries Class Note \#[[ lecture_index ]]}
+\fancyfoot[C]{\small\color{teal}\thepage}
+
+% ===== Section Title Styling =====
+\usepackage{titlesec}
+\titleformat{\section}
+  {\bfseries\Large\color{navy}}
+  {\thesection}{0.5em}{}[{\color{gold}\titlerule[1.2pt]}]
+\titleformat{\subsection}
+  {\bfseries\large\color{teal}}
+  {\thesubsection}{0.5em}{}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=teal, urlcolor=teal}
+\usepackage{tikz}
+\usetikzlibrary{shapes,decorations.pathmorphing,arrows.meta,positioning}
+
+% ============================================================
+%  GENERAL-PURPOSE ICON LIBRARY (TikZ pictograms, ~scale 0.42)
+%  Keep them simple flat shapes in navy / teal / gold so they
+%  stay on-brand. Use \baseline=-0.5ex so icons align inline.
+% ============================================================
+
+% --- Weather / time ---
+\newcommand{\iconcalendar}[1]{% #1 = short label e.g. "FRI"
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\draw[fill=lightteal, draw=navy, thick, rounded corners=2pt] (0,0) rectangle (2.2,2);
+\draw[fill=navy] (0,1.55) rectangle (2.2,2);
+\draw[navy, thick, line cap=round] (0.5,2) -- (0.5,2.35);
+\draw[navy, thick, line cap=round] (1.7,2) -- (1.7,2.35);
+\node[white, font=\bfseries\tiny] at (1.1,1.78) {WEEK};
+\node[navy, font=\bfseries\Large] at (1.1,0.85) {#1};
+\end{tikzpicture}}
+
+\newcommand{\iconcloudrain}{%
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\draw[fill=gray!15, draw=navy, thick] (0.75,1.55) circle (0.55);
+\draw[fill=gray!15, draw=navy, thick] (1.55,1.75) circle (0.7);
+\draw[fill=gray!15, draw=navy, thick] (2.35,1.5) circle (0.5);
+\draw[fill=gray!15, draw=navy, thick] (0.35,1.05) rectangle (2.75,1.55);
+\foreach \x in {0.8,1.4,2.0,2.6}{
+\draw[teal, thick, line cap=round] (\x,0.9) -- (\x-0.25,0.15);
+}
+\end{tikzpicture}}
+
+\newcommand{\iconsun}{%
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\draw[fill=gold!60, draw=navy, thick] (1.4,1.3) circle (0.65);
+\foreach \a in {0,45,90,135,180,225,270,315}{
+\draw[gold!80!black, thick, line cap=round] ({1.4+0.9*cos(\a)},{1.3+0.9*sin(\a)}) -- ({1.4+1.3*cos(\a)},{1.3+1.3*sin(\a)});
+}
+\end{tikzpicture}}
+
+\newcommand{\iconumbrella}{%
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\draw[fill=teal!70, draw=navy, thick] (0.2,1.6) .. controls (0.5,2.4) and (2.1,2.4) .. (2.4,1.6) -- (0.2,1.6) -- cycle;
+\draw[navy, thick] (1.3,1.6) -- (1.3,0.3);
+\draw[navy, thick] (1.3,0.3) .. controls (1.3,0.0) and (1.0,0.0) .. (1.0,0.25);
+\end{tikzpicture}}
+
+% --- Food / drink ---
+\newcommand{\iconcoffee}{%
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\draw[fill=navy!10, draw=navy, thick] (0.4,0.2) rectangle (1.8,1.3);
+\draw[navy, thick] (1.8,0.9) .. controls (2.4,0.9) and (2.4,0.5) .. (1.8,0.55);
+\draw[teal, thick, line cap=round] (0.7,1.4) .. controls (0.9,1.7) and (0.6,1.8) .. (0.8,2.1);
+\draw[teal, thick, line cap=round] (1.3,1.4) .. controls (1.5,1.7) and (1.2,1.8) .. (1.4,2.1);
+\end{tikzpicture}}
+
+\newcommand{\icontea}{%
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\draw[fill=gold!15, draw=navy, thick] (0.3,0.3) .. controls (0.3,1.0) and (2.1,1.0) .. (2.1,0.3) -- cycle;
+\draw[navy, thick] (2.1,0.75) .. controls (2.6,0.75) and (2.6,0.35) .. (2.1,0.45);
+\draw[navy, thick] (1.2,1.0) -- (1.5,1.7);
+\draw[fill=gold, draw=navy, thick] (1.4,1.75) rectangle (1.65,1.95);
+\end{tikzpicture}}
+
+\newcommand{\iconsoup}{%
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\draw[fill=gold!25, draw=navy, thick] (0.2,0.6) .. controls (0.2,0.0) and (2.6,0.0) .. (2.6,0.6) -- (0.2,0.6) -- cycle;
+\draw[navy, thick] (0,0.9) -- (2.8,0.9);
+\draw[teal, thick, line cap=round] (1.0,1.0) .. controls (1.2,1.3) and (0.9,1.4) .. (1.1,1.7);
+\draw[teal, thick, line cap=round] (1.7,1.0) .. controls (1.9,1.3) and (1.6,1.4) .. (1.8,1.7);
+\end{tikzpicture}}
+
+\newcommand{\iconsalad}{%
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\draw[fill=navy!10, draw=navy, thick] (0.2,0.6) .. controls (0.2,0.0) and (2.6,0.0) .. (2.6,0.6) -- (0.2,0.6) -- cycle;
+\draw[navy, thick] (0,0.9) -- (2.8,0.9);
+\draw[fill=teal, draw=teal!70!black] (1.0,1.1) circle (0.28);
+\draw[fill=teal!60, draw=teal!70!black] (1.6,1.15) circle (0.22);
+\draw[fill=gold, draw=gold!70!black] (1.3,1.35) circle (0.14);
+\end{tikzpicture}}
+
+% --- Logic / status symbols ---
+\newcommand{\icontrue}{%
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\draw[fill=teal!15, draw=teal, thick] (1,1) circle (1);
+\draw[teal!80!black, ultra thick, line cap=round, line join=round]
+  (0.55,1.0) -- (0.9,0.6) -- (1.5,1.5);
+\end{tikzpicture}}
+
+\newcommand{\iconfalse}{%
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\draw[fill=gold!15, draw=gold!70!black, thick] (1,1) circle (1);
+\draw[gold!70!black, ultra thick, line cap=round]
+  (0.5,0.5) -- (1.5,1.5);
+\draw[gold!70!black, ultra thick, line cap=round]
+  (1.5,0.5) -- (0.5,1.5);
+\end{tikzpicture}}
+
+\newcommand{\iconbook}{%
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\draw[fill=lightteal, draw=navy, thick] (0.2,0.2) -- (1.4,0.5) -- (1.4,2.0) -- (0.2,1.7) -- cycle;
+\draw[fill=lightgold, draw=navy, thick] (2.6,0.2) -- (1.4,0.5) -- (1.4,2.0) -- (2.6,1.7) -- cycle;
+\draw[navy] (1.4,0.5) -- (1.4,2.0);
+\end{tikzpicture}}
+
+\newcommand{\iconlightbulb}{%
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\draw[fill=gold!25, draw=navy, thick] (1.2,1.5) circle (0.75);
+\draw[navy, thick] (0.85,2.1) -- (1.55,2.1);
+\draw[navy, thick] (0.9,2.3) -- (1.5,2.3);
+\draw[navy, thick] (1.0,2.5) -- (1.4,2.5);
+\draw[gold!80!black, thick] (1.0,1.4) -- (1.2,1.7) -- (1.4,1.3);
+\end{tikzpicture}}
+
+\newcommand{\icongear}{%
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\foreach \a in {0,45,90,135,180,225,270,315}{
+\draw[fill=navy!70, draw=navy] ({1.3+0.95*cos(\a)},{1.3+0.95*sin(\a)}) circle (0.22);
+}
+\draw[fill=teal!30, draw=navy, thick] (1.3,1.3) circle (0.75);
+\draw[fill=white, draw=navy, thick] (1.3,1.3) circle (0.3);
+\end{tikzpicture}}
+
+% --- Sets / arrows (handy for discrete math / relations) ---
+\newcommand{\iconsetvenn}{%
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\draw[fill=teal!20, draw=navy, thick, opacity=0.85] (0.9,1.2) circle (0.85);
+\draw[fill=gold!25, draw=navy, thick, opacity=0.85] (1.9,1.2) circle (0.85);
+\end{tikzpicture}}
+
+\newcommand{\iconarrowmap}{%
+\begin{tikzpicture}[scale=0.42, baseline=-0.5ex]
+\foreach \y in {0.4,1.2,2.0}{\draw[fill=navy] (0.3,\y) circle (0.09);}
+\foreach \y in {0.4,1.2,2.0}{\draw[fill=teal] (2.3,\y) circle (0.09);}
+\draw[navy, -{Stealth[length=2mm]}] (0.4,0.4) -- (2.2,1.2);
+\draw[navy, -{Stealth[length=2mm]}] (0.4,1.2) -- (2.2,1.2);
+\draw[navy, -{Stealth[length=2mm]}] (0.4,2.0) -- (2.2,2.0);
+\end{tikzpicture}}
+
+\begin{document}
+
+% ============================================================
+%  TITLE PAGE — topic / class-note number / course
+% ============================================================
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+{\color{navy}\bfseries\Huge [[ topic ]]}\\[0.2cm]
+{\color{teal}\Large Class Note \#[[ lecture_index ]]}\\[0.2cm]
+{\color{gold!70!black}\small [[ date ]]}\\[1cm]
+\begin{tcolorbox}[colback=lightgold, colframe=gold, width=0.7\textwidth, arc=3pt]
+\centering [[ subject ]]
+\end{tcolorbox}
+\vfill
+{\color{gold}\rule{0.5\textwidth}{1.5pt}}
+\end{titlepage}
+
+[[ content ]]
+
+\end{document}

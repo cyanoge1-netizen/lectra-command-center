@@ -9,7 +9,7 @@
 #   Phase 4 → Profiles           Phase 9 → Today Brief (first tab)
 #   Phase 5 → Syllabus Engine    Phase 10 → Marks & Trends
 #   Phase 6 → Attendance         Phase 11 → Checklist (today/attendance/marks build)
-#   Phase 7 → Life & Daily Goals
+#   Phase 7 → Life & Daily Goals Phase 12 → Notes (AI studio + Vault)
 #
 # Run:  python3 main_gui.py
 
@@ -49,6 +49,7 @@ PHASE_TABS = [
     (8, "Materials"),
     (10, "Marks & Trends"),
     (11, "Checklist"),
+    (12, "Notes"),
 ]
 
 
@@ -131,6 +132,9 @@ class MainWindow(QMainWindow):
             elif phase == 11:
                 from syllabus_checklist_tab import SyllabusChecklistTab
                 widget = SyllabusChecklistTab(self.broker)
+            elif phase == 12:
+                from notes_tab import NotesTab
+                widget = NotesTab(self.broker)
             else:
                 widget = PlaceholderTab(self.broker, phase, title)
             self.tabs.addTab(widget, title)
@@ -138,6 +142,10 @@ class MainWindow(QMainWindow):
         for i in range(min(9, self.tabs.count())):
             QShortcut(QKeySequence(f"Ctrl+{i + 1}"), self,
                       activated=lambda i=i: self.tabs.setCurrentIndex(i))
+        if self.tabs.count() > 9:
+            QShortcut(QKeySequence("Ctrl+0"), self,
+                      activated=lambda: self.tabs.setCurrentIndex(
+                          self.tabs.count() - 1))
 
         from backup_manager import BackupManager
         self.backup_manager = BackupManager(broker=self.broker)
@@ -153,7 +161,7 @@ class MainWindow(QMainWindow):
         restore_btn.clicked.connect(self._restore_backup)
         bar.addPermanentWidget(backup_btn)
         bar.addPermanentWidget(restore_btn)
-        bar.showMessage("Command Center · Phases 1–11 wired")
+        bar.showMessage("Command Center · Phases 1–12 wired")
         self._refresh_backup_label()
 
     # ------------------------------------------------------- broker wiring

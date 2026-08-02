@@ -1,0 +1,34 @@
+% File Location: assets/templates/ai_notes.tex
+% Jinja delimiters: [[ variable ]] and if/endif blocks (matches lecture_note.tex)
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{fontspec}
+[% if font_path and font_file %]
+\setmainfont{[[ font_file ]]}[Path=[[ font_path ]]/]
+[% endif %]
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc,shapes.geometric}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{[[ language ]]}
+
+\usepackage[hidelinks]{hyperref}
+
+\title{\textbf{\Large [[ subject ]]}\\[4pt]\large Lecture [[ lecture_index ]]}
+\author{Topic: [[ topic ]]  |  Date: [[ date ]]}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{Lecture [[ lecture_index ]]: [[ topic ]]}
+[[ content ]]
+
+\end{document}
