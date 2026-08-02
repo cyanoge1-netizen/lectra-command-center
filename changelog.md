@@ -1,5 +1,18 @@
 # Changelog
 
+## [Beta 0.6] - 2026-08-02 (cont. 1)
+### Added
+- **Phase C — Decision layer**: new `decision_engine.py` ranks "what to do
+  next" from the live state graph (deadline proximity, exam countdown +
+  high-yield topic backlog + attendance risk per course, recovery-class
+  targets, and a spaced-repetition revision queue driven by the checklist
+  log's last-reviewed dates).
+- Today Brief gains a **Do this next** card (top-5 scored actions with
+  reasons) and a revision-queue line; Home Cockpit shows the single top
+  suggestion above its Predictive Intelligence panel.
+- `tests/test_decision_engine.py` (14 cases: ranking, recovery math,
+  exam matching, determinism).
+
 ## [Beta 0.5] - 2026-08-02 (cont. 2)
 ### Added
 - **Phase 12 — Notes (AI Studio)** ported from the ERP project into a new

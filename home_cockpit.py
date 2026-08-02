@@ -182,6 +182,10 @@ class HomeCockpitTab(QWidget):
         title.setStyleSheet("font-weight: 700;")
         layout.addWidget(title)
 
+        self.next_step_lbl = QLabel("")
+        self.next_step_lbl.setWordWrap(True)
+        layout.addWidget(self.next_step_lbl)
+
         # grade deflection
         self.grade_badge = QLabel("N/A")
         self.grade_badge.setProperty("mono", True)
@@ -290,6 +294,26 @@ class HomeCockpitTab(QWidget):
         self._refresh_kpis()
         self._refresh_alerts()
         self._refresh_charts()
+        self._refresh_next_step()
+
+    def _refresh_next_step(self):
+        from decision_engine import next_actions, KIND_ICON
+        actions = next_actions(self.broker)
+        if not actions:
+            self.next_step_lbl.setText(
+                "\u26A1 Do this next: all clear — nothing is urgent")
+            self.next_step_lbl.setProperty("role", "muted")
+        else:
+            top = actions[0]
+            icon = KIND_ICON.get(top["kind"], "\u2022")
+            self.next_step_lbl.setText(
+                f"\u26A1 Do this next: {icon} {top['title']}"
+                + (f" ({top['course']})" if top["course"] else "")
+                + f" — {top['reason']}")
+            self.next_step_lbl.setProperty(
+                "role", "risk" if top["score"] >= 80 else "active")
+        self.next_step_lbl.style().unpolish(self.next_step_lbl)
+        self.next_step_lbl.style().polish(self.next_step_lbl)
 
     def _refresh_kpis(self):
         # CGPA

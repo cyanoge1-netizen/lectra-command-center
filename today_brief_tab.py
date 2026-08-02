@@ -430,6 +430,7 @@ class TodayBriefTab(QWidget):
 
         right = QVBoxLayout()
         right.setSpacing(8)
+        right.addWidget(self._build_decisions_card(), 0)
         right.addWidget(self._build_materials_card(), 0)
         right.addWidget(self._build_homework_card(), 0)
         right.addWidget(self._build_checklist_card(), 1)
@@ -524,6 +525,19 @@ class TodayBriefTab(QWidget):
             override_row.addWidget(b)
         override_row.addStretch(1)
         layout.addLayout(override_row)
+        return card
+
+    def _build_decisions_card(self):
+        card, layout = self._card()
+        layout.addWidget(self._card_title("Do this next"))
+        self.decisions_lbl = QLabel("")
+        self.decisions_lbl.setWordWrap(True)
+        self.decisions_lbl.setTextFormat(Qt.TextFormat.RichText)
+        layout.addWidget(self.decisions_lbl)
+        self.revision_lbl = QLabel("")
+        self.revision_lbl.setProperty("muted", True)
+        self.revision_lbl.setWordWrap(True)
+        layout.addWidget(self.revision_lbl)
         return card
 
     def _build_materials_card(self):
@@ -667,6 +681,7 @@ class TodayBriefTab(QWidget):
         self._render_assignments(today)
         self._render_checklist(date_str)
         self._render_tasks()
+        self._render_decisions(today)
 
     # -------------------------------------------------------- routine UI
     def _render_routine(self, now, date_str, day):
@@ -872,6 +887,42 @@ class TodayBriefTab(QWidget):
         self.broker.set("attendance.overrides", overrides)
 
     # ------------------------------------------------- materials UI
+    def _render_decisions(self, today):
+        from decision_engine import next_actions, revision_due, KIND_ICON
+        actions = next_actions(self.broker)
+        muted = COLORS["text_muted"]
+        if not actions:
+            self.decisions_lbl.setText(
+                f'<span style="color:{muted};">All clear — nothing is urgent '
+                f"right now.</span>")
+        else:
+            rows = []
+            for a in actions[:5]:
+                if a["score"] >= 80:
+                    color = COLORS["risk"]
+                elif a["score"] >= 50:
+                    color = COLORS["accent"]
+                else:
+                    color = muted
+                icon = KIND_ICON.get(a["kind"], "\u2022")
+                who = f" <span style='color:{muted}'>({a['course']})</span>" \
+                    if a["course"] else ""
+                rows.append(
+                    f"<span style='color:{color}; font-weight:700;'>"
+                    f"{a['score']}</span> &nbsp;<b>{icon} {a['title']}</b>"
+                    f"{who} — {a['reason']}")
+            self.decisions_lbl.setText("<br>".join(rows))
+
+        due = revision_due(self.broker)
+        high = sum(1 for d in due if d.get("yield") == "high")
+        if due:
+            self.revision_lbl.setText(
+                f"\U0001F504 Revision queue: {len(due)} topic"
+                f"{'s' if len(due) != 1 else ''} due"
+                + (f" · {high} high-yield" if high else ""))
+        else:
+            self.revision_lbl.setText("No topics due for revision today")
+
     def _render_materials(self):
         date_str = date.today().isoformat()
         day = sun0_index(date.today())
