@@ -7,10 +7,10 @@
       "theory_hours": 2,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -52,10 +52,10 @@
       "theory_hours": 0,
       "lab_hours": 6,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -97,10 +97,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -142,10 +142,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -187,10 +187,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -232,10 +232,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -277,10 +277,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -322,10 +322,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -369,10 +369,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -414,10 +414,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -449,10 +449,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -494,10 +494,10 @@
       "theory_hours": 2,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -539,10 +539,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -579,10 +579,10 @@
       "theory_hours": 0,
       "lab_hours": 2,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -619,10 +619,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -664,10 +664,10 @@
       "theory_hours": 2,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -709,10 +709,10 @@
       "theory_hours": 2,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -754,10 +754,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -799,10 +799,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -821,10 +821,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -866,10 +866,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -911,10 +911,10 @@
       "theory_hours": 2,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -956,10 +956,10 @@
       "theory_hours": 0,
       "lab_hours": 2,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1001,10 +1001,10 @@
       "theory_hours": 2,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1041,10 +1041,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1086,10 +1086,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1131,10 +1131,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1176,10 +1176,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1196,10 +1196,10 @@
       "theory_hours": 2,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1243,10 +1243,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1288,10 +1288,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1333,10 +1333,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1378,10 +1378,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1423,10 +1423,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1468,10 +1468,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1513,10 +1513,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1558,10 +1558,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1578,10 +1578,10 @@
       "theory_hours": 0,
       "lab_hours": 2,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1600,10 +1600,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1645,10 +1645,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1685,10 +1685,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1730,10 +1730,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1775,10 +1775,10 @@
       "theory_hours": 2,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1820,10 +1820,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1865,10 +1865,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1910,10 +1910,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1955,10 +1955,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -1995,10 +1995,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2037,10 +2037,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2082,10 +2082,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2122,10 +2122,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2167,10 +2167,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2212,10 +2212,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2257,10 +2257,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2302,10 +2302,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2347,10 +2347,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2392,10 +2392,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2427,10 +2427,10 @@
       "theory_hours": 0,
       "lab_hours": 4,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2447,10 +2447,10 @@
       "theory_hours": 0,
       "lab_hours": 2,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2469,10 +2469,10 @@
       "theory_hours": 0,
       "lab_hours": 4,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2489,10 +2489,10 @@
       "theory_hours": 4,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2509,10 +2509,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2554,10 +2554,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2599,10 +2599,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2644,10 +2644,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2689,10 +2689,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2734,10 +2734,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2764,10 +2764,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2794,10 +2794,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2814,10 +2814,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2834,10 +2834,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2854,10 +2854,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2899,10 +2899,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2929,10 +2929,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2949,10 +2949,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2969,10 +2969,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -2989,10 +2989,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3011,10 +3011,10 @@
       "theory_hours": 0,
       "lab_hours": 8,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3031,10 +3031,10 @@
       "theory_hours": 8,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3051,10 +3051,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3096,10 +3096,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3126,10 +3126,10 @@
       "theory_hours": 0,
       "lab_hours": 2,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3146,10 +3146,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3181,10 +3181,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3201,10 +3201,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3231,10 +3231,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3251,10 +3251,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3271,10 +3271,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3291,10 +3291,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3336,10 +3336,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3381,10 +3381,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3416,10 +3416,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3436,10 +3436,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3471,10 +3471,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3491,10 +3491,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3511,10 +3511,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3531,10 +3531,10 @@
       "theory_hours": 3,
       "lab_hours": 0,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
@@ -3576,10 +3576,10 @@
       "theory_hours": 0,
       "lab_hours": 3,
       "marks": {
-        "attendance": 5,
-        "class_test": 15,
-        "mid": 30,
-        "final": 50
+        "attendance": 10,
+        "class_test": 10,
+        "mid": 20,
+        "final": 60
       },
       "topics": [
         {
