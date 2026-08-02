@@ -42,6 +42,21 @@ python3 main_gui.py
 
 ---
 
+## 🧪 Tests
+
+Stdlib `unittest` (no pytest needed):
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+Covers `backup_manager` (create/list/preview/restore, rotation, corrupt-zip
+rejection, file round-trip) and `predictive_engine` (deterministic training,
+alert thresholds, habit cascade, no-fabrication guard).
+
+
+---
+
 ## 📦 Packaging & Building
 
 ### Option A — Release zip (fast, no extra deps)
