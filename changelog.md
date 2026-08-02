@@ -52,6 +52,16 @@
 - **English-digit fix**: `QLocale.setDefault(en_US)` before QApplication so
   numeric widgets render `0-9` even under a Bengali OS locale.
 
+## [Beta 0.6] - 2026-08-02 (cont. 2)
+### Added
+- **Real syllabus dataset**: `data/syllabus.json` extracted from the SEC CSE
+  UG curriculum PDF (`~/Downloads/syllabus.pdf`, 2025-26) — 8 semesters, 98
+  courses, 423 topics. One-off parser (pymupdf) matched semester tables to
+  each `Course Contents:` outline, pulling theory/lab hours, credits and
+  yield-ranked topic lists; Project/Viva/Thesis courses get clean fallback
+  topics. Import via Syllabus Engine → Import syllabus JSON (merges into
+  existing semesters).
+
 ## [Phase 1 Foundation] - 2026-08-01
 - `databroker.py` centralized state store (atomic JSON persistence,
   per-section signals), global QSS skin (`styles.py`), 9-tab skeleton,

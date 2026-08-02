@@ -1,0 +1,3618 @@
+{
+  "semester_1": {
+    "06131133": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 2.0,
+      "theory_hours": 2,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Programming Language",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Language",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "output. Character and formatted I/O; Arithmetic Expressions and Assignment state",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Loops and Nested loops; break",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "variables",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Automatic",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06131134": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 0,
+      "lab_hours": 6,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Programming Language",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Language",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "output. Character and formatted I/O; Arithmetic Expressions and Assignment state",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Loops and Nested loops; break",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "variables",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Automatic",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "05411143": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Set, Relations, Functions",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Propositional Calculus",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Algorithms",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Recursion",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Combinatorial Analysis",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Functions.",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07131109": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Circuit variables and elements",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Basic laws",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Simple resistive circuits",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Techniques of circuit analysis",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Network theorems",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Thevenin’s",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07131110": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "In this course students will perform experiments to verify practically the theor",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "To familiarize students with the operation of different electrical instruments.",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "To verify the following theorems",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "KCL and KVL theorem",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Superposition theorem",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Thevenin’s theorem",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "05411101": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Co-ordinate Geometry",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Transformation of co-ordinates axes and its uses",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Homogeneous equations of second degree",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "straight lines; Pair of lines joining the origin to the point of intersection of",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "circles; Orthogonal circles; Radical axis",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "points; Equations of parabola; ellipse and hyperbola in Cartesian and polar co-o",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "05331103": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Heat and Thermodynamics",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Principle of temperature measurements",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Kinetic theory of gases",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Speeds",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Review of the First Law of thermodynamics and its application",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Second Law of thermodynamics",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "05331104": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Determination of the value of ‘g’ gravity by using compound pendulum.",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Determination of the spring constant and effective mass of a spiral spring.",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Determination of the focal length of a convex lens.",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Determination of the mechanical equivalent of heat by electrical method.",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Determination of the velocity of sound by water tube and tuning fork.",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Calculation of the Planck’s constant using LED.",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    }
+  },
+  "semester_2": {
+    "06131237": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Internal Data Representation",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Specification, representation, Asymptotic analysis",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "method and manipulation of basic data structures: arrays",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Recursion",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Sorting",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "merge sort",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06131238": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Creation and Manipulation of linear data structures",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Manipulation of non-linear data structures",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "and hashing techniques",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Implement all the Contents related to the coursework CSE 138.",
+          "yield": "medium",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06321206": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Engineering Drwaing",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Instruments and their uses",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Pictorial Projections",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "and third angle projections",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Data Visualization",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Pie Chart - Scatter Plot - Histogram - Stacked Bar Charts - Sub Plots - Matplotl",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06131247": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 2.0,
+      "theory_hours": 2,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Introduction to Theory of Computation.",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Automata and Language Theory",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Finite automata",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "their equivalence",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Context-free Grammars",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "CFLs and applications. Normal forms. General parsing. Sketch of equivalence with",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "05311201": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Atomic structure",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "gases; Different types of chemical bonds and their properties; Molecular structu",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "organic reactions; Different types of solutions and their compositions; Phase ru",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "monocomponent system; Properties of dilute solutions; Thermochemistry",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "equilibria; Ionization of water and pH concept; Electrical properties of solutio",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "05311202": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 1.0,
+      "theory_hours": 0,
+      "lab_hours": 2,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Atomic structure",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "gases; Different types of chemical bonds and their properties; Molecular structu",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "organic reactions; Different types of solutions and their compositions; Phase ru",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "monocomponent system; Properties of dilute solutions; Thermochemistry",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "equilibria; Ionization of water and pH concept; Electrical properties of solutio",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "05411203": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Differential Calculus",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "meaning of derivative of a function; Leibnitz Theorem; Rolle's theorem; Mean val",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "theorem (statement only).Taylor’s and Maclaurin’s series and expansion of functi",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "variables; Partial and total derivatives. Maximum and minimum values of function",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Curvature",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Integral Calculus",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "02311201": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 2.0,
+      "theory_hours": 2,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "a) Reading",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Different Reading Strategies",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Guessing Meaning from the Context",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Critical Reading (Analyze)",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Critical Reading (Synthesize)",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Critical Reading (Evaluate)",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "02311202": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 1.0,
+      "theory_hours": 2,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Grammar",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Vocabulary building",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "informal and formal.",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "(a) Speaking",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Articulators",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "English Phonetic Alphabet (British and American) and International Phonetic Alph",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "03111205": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Introduction to Microeconomics",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "model; fundamental economic problems and solution systems; Concepts of demand",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Concepts of elasticity",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Concepts of production",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Macroeconomics",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "unemployment; money",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06101250": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Project work",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    }
+  },
+  "semester_3": {
+    "06132133": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Introduction to Java",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Developing Java Application",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "/Else Selection Structure",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Control Structure",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Introduction with the ‘for’ structure",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Methods",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06132134": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Data Structure",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Heavy Light Decomposition",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "String Processing",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Game Theory",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Game",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Combinatorics & Probability",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "05412157": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 2.0,
+      "theory_hours": 2,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Numerical analysis",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Error",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Root finding",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "iteration method",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Polynomial interpolation",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Linear equations",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "05412158": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 1.0,
+      "theory_hours": 0,
+      "lab_hours": 2,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "The material presented in this course is intended to acquaint students with some",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "methods found useful in the fields of computing and applied mathematics.",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Tasks",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Utilize numerical techniques to find the roots of an equation.",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Set up a difference table and use it to interpolate and extrapolate data",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "which will approximate the data",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06882147": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 2.0,
+      "theory_hours": 2,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Ethics",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Meta Ethics",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Cognitivism",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Different Psychological Issues in Meta-ethics",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Normative Ethics",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06132134-I": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Data Structure",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Heavy Light Decomposition",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "String Processing",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Game Theory",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Game",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Combinatorics & Probability",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07142111": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "P-N junction as a circuit element",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Diode circuits",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "rectifiers",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Bipolar Junction Transistor (BJT) as a circuit element",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "of operation",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Field Effect Transistor (MOSFET) as circuit element",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07142112": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "To familiarize students with electronics devices and Laboratory Equipment.",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "To study of V-l Characteristics curve of P-N junction diode.",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "To study of Half-Wave Rectification circuit.",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "To study of Full-Wave Rectification circuit (Bridge &Center- tap).",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "To study of Clipping and clamping circuit.",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "To study MOSFET and BJT characteristics.",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "05422102": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Statistics for Engineers",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06322105": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 2.0,
+      "theory_hours": 2,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Management and Organization",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Organizational structure and design",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Personnel Management",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Productivity and satisfaction",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Personnel Development",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Inventory Management",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    }
+  },
+  "semester_4": {
+    "06132237": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Analysis of Algorithm",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Asymptotic analysis",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Master method Hash Table",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Greedy Algorithms",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Dynamic Programming",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "problem)",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06132238": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Hash Table",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Greedy Algorithms",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Dynamic Programming",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "change related problem",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "variations",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Flow",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06132201": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Logic Families",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Logic Gates",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Flip flops",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Logic Circuits",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Counters",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Registers",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06132202": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Logic circuits using combination of gates",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "To construct and study the following logic gates",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Verify the DE Morgan’s Law",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "To verify different kind of applications of Boolean algebra.",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "To construct an AND gate by diode resistors and observe its characteristics.",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "To verify the characteristics of Exclusive OR and Exclusive NOR using basic logi",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07142279": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Introduction to Computer Architecture",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Instruction set design",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Classifying instruction set architectures",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Memory System Design",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "associative mapping; Analyzing cache effectiveness; Replacement policies; Writin",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Upgrading a cache; Main Memory; Virtual memory structure",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "04112205": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Introduction",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Conventions, GAAP, Basic Accounting Equation",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Transactions",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "The Recording Process",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Journal",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Summary Illustration of Journalizing",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "05412204": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Complex Variables",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "problem; functions of a complex variable; limit and continuity of a function of ",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "functions; the Cauchy-Riemann equations; Cauchy’s theorem; singularity and poles",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Laplace Transformations",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "transform; Laplace transform of different functions; first shift theorem; invers",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "property; use of first shift theorem and partial functions; Laplace transform of",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06102250": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Project work",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06102290": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.0,
+      "theory_hours": 0,
+      "lab_hours": 2,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Viva voce",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    }
+  },
+  "semester_5": {
+    "06123163": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Computer Basics",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Introduction to Database",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Relationship Model",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Database Management",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "a Database",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Database Programming",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06123164": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Computer Basics",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Database Management",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "create",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Database Programming",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Nested sub queries",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06193193": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "What is Artificial Intelligence",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Problems, Problem spaces and Search",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Heuristics Search Techniques",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Knowledge Representation Issues",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Representation and Mappings",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Using Predicate logic",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06193194": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Students will have to understand the functionalities of intelligent agents and h",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Python, Prolog, LISP) to solve the following problems",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Backtracking",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Example",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "BFS and production",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Question answering",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06123159": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 2.0,
+      "theory_hours": 2,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Concepts of Web Engineering",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Architectures",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Usability and Performance of Web Applications",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "methods and technologies",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "operation and maintenance of Web applications",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "JavaScript",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06123160": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Concepts of Web Engineering",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Architectures",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Usability and Performance of Web Applications",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "methods and technologies",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "operation and maintenance of Web applications",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "JavaScript",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07143177": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Microprocessors",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "languages",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Intel 80286, 80386 microprocessors",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "memory management scheme",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "to 8-bit",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "tasking and virtual memory; Memory interface; Bus interface; Arithmetic co-proce",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07143178": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Registers",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Implementation of different types of instruction(rotating",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Instructions (MUL",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "String instructions",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Bios Interrupt",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "The IN",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07143171": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Introduction",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Network Models",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Data and Signals",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Signals",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Transmission",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07143172": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Lab experiments and tasks",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Implement different Line Coding Schemes using a programming language or MATLAB.",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Analyze different Analog Transmission Techniques using ANACOM/MODICOM.",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Implement various Error Detection and Correction techniques using a programming ",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Evaluate the performance of the ARQ protocols using a Data Link Layer Protocol S",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    }
+  },
+  "semester_6": {
+    "06193293": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Introduction to Machine Learning Concepts",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "applications and examples. The main components of a ML system. Requirements to d",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Testing ML algorithms",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "concept and hypothesis",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Learning",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Clustering Technique",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06193294": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Laboratory works based on CSE475. ID3 Algorithm for Decision Tree",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Application of the MLP-BP ANN algorithm",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Application of  HMM, Exclusive clustering",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "K- means algorithm, Agglomerative clustering",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "algorithm.",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06133235": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Introduction",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Fundamentals of OS",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "services and components",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Management",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Communication",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Concurrency control",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06133236": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Thread programming",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Process Programming",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Concurrent Programming",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "File Operations",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Files into Memory",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Communicating across processes",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07143275": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "SIGNALS AND SYSTEMS",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "sampling theorem –Discrete – time signals",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "FREQUENCY TRANSFORMATIONS",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "– Properties of DFT – Filtering methods based on DFT – FFT Algorithms Decimation",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "IIR FILTER DESIGN",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Structures of IIR – Analog filter design – Discrete time IIR filter from analog ",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07143276": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "SIGNALS AND SYSTEMS",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "sampling theorem –Discrete – time signals",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "FREQUENCY TRANSFORMATIONS",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "– Properties of DFT – Filtering methods based on DFT – FFT Algorithms Decimation",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "IIR FILTER DESIGN",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Structures of IIR – Analog filter design – Discrete time IIR filter from analog ",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06133241": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Introduction",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Requirement Analysis",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Analysis Modeling",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "technical analysis",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "and information flow",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Design",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06133242": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Software Engineering lab work is solely designed to attain hands-on experience o",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "documentation and testing of software so that students can develop the software ",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Also this lab includes Introduction to UML",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Step1 (Requirement Engineering)",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "(make sure that they will provide required information whenever necessary). Foll",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "requirements and generate a use-case diagram. Also analyze the sufficiency of th",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06113230": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Issues of technical writing and effective oral presentation in Computer Science ",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Preparation of reports, research papers, theses and books",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Writing tools",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "LATEX; Diagram drawing software; presentation tools.",
+          "yield": "medium",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06103250": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 2.0,
+      "theory_hours": 0,
+      "lab_hours": 4,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Project work",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06103290": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.0,
+      "theory_hours": 0,
+      "lab_hours": 2,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Viva voce",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    }
+  },
+  "semester_7": {
+    "06104122": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 2.0,
+      "theory_hours": 0,
+      "lab_hours": 4,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Thesis work",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06104144": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 2.0,
+      "theory_hours": 4,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Project work",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06124161": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Cloud fundamentals",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "benefits and limitations",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Cloud service and deployment models",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "public",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Virtualization and containerization fundamentals",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "images and snapshots",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06124162": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Setup & fundamentals",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "naming/tagging",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Virtual machines and compute",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Storage services",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "(bucket creation",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Container fundamentals",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06134131": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Computer Graphics Programming",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Camera Analogy",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Transformation (Ray-tracing)",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Vector",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Matrix",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Raster Graphics",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06134132": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Computer Graphics Programming",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Camera Analogy",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Transformation (Ray-tracing)",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Vector",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Matrix",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Raster Graphics",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06124165": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Introduction to compilers",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "analysis: Role of the lexical analyzer",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Parsing",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Syntax-directed translation",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Type checking",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Run-time organization",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06124166": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "How to use scanner and parser generator tools (e.g.",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "language designing and implementing lexical analyzer",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "code generator.",
+          "yield": "medium",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06134167": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Simulation modeling basics: systems, models and simulation",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Classification of simulation models",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Steps in a",
+          "yield": "medium",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06134168": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Simulation and Modeling Sessional",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06194193": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Deep Learning",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06194194": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Deep Learning Sessional",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06124165-C": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Introduction to compilers",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "analysis: Role of the lexical analyzer",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Parsing",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Syntax-directed translation",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Type checking",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Run-time organization",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06124166-C": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "How to use scanner and parser generator tools (e.g.",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "language designing and implementing lexical analyzer",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "code generator.",
+          "yield": "medium",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06134171": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Introduction to Quantum Computing",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06134172": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Introduction to Quantum Computing Sessional",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07144173": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Internet of Things",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07144174": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Internet of Things Sessional",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    }
+  },
+  "semester_8": {
+    "06104266": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 4.0,
+      "theory_hours": 0,
+      "lab_hours": 8,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Thesis work",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06104288": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 4.0,
+      "theory_hours": 8,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Project work",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06134247": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Basic terminology and security concepts",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Security principles Classic Crypto Systems",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Symmetric Encryption",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Advanced Encryption Standard (AES) Public Key Encryption",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "ElGamal crypto systems Other crypto mechanisms",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Hash Function, Digital Signature Physical security",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06134248": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Attacking classic cipher systems",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "utilizing different cryptographic libraries",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "applications and Malware analysis.",
+          "yield": "medium",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06104290": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.0,
+      "theory_hours": 0,
+      "lab_hours": 2,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Viva voce",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06134231": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Introduction",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Digitization of images and its properties",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Data structures for image analysis",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Image processing",
+          "yield": "medium",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06134232": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Digital Image Processing Sessional",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07144271": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Technology",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "IEEE 802.11: standard, protocol architecture, physical layer and media access control",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Mobile IP",
+          "yield": "medium",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07144272": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Wireless & Mobile Communication Sessional",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06134237": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Advanced Algorithm Engineering",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06134238": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Advanced Algorithm Engineering Sessional",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06884297": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Cell concept",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Nucleic acids",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Proteins",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Genetic code",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Genetics",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "prokaryotes and eukaryotes",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06884298": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Cell concept",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Nucleic acids",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Proteins",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Genetic code",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Genetics",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "prokaryotes and eukaryotes",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07144277": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "design rules",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Basic CMOS circuit characteristics and performance estimation",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Buffer circuit design",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Complex",
+          "yield": "medium",
+          "status": "Pending"
+        }
+      ]
+    },
+    "07144278": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "VLSI Design Sessional",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06134243": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "and Grammars",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Dependency Parsing, Parsing Algorithms",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Parsing Algorithms and the Lexicon",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Semantic",
+          "yield": "medium",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06134244": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Natural Language Processing Sessional",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06124267": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Distributed and Parallel Computing",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06124268": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "Distributed and Parallel Computing Sessional",
+          "yield": "high",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06124269": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 3.0,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "LLM Landscape and Advanced Architecture",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Claude",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "attention (GQA) and multi-query attention (MQA); rotary positional embedding (Ro",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "window and sparse attention; mixture-of-experts (MoE) architecture; tokenization",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "LLM Training Pipeline and Alignment",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "Chinchilla compute-optimal insights; emergent abilities; supervised fine-tuning ",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    },
+    "06124270": {
+      "priority": "HIGH",
+      "status": "Pending",
+      "credits": 1.5,
+      "theory_hours": 0,
+      "lab_hours": 3,
+      "marks": {
+        "attendance": 5,
+        "class_test": 15,
+        "mid": 30,
+        "final": 50
+      },
+      "topics": [
+        {
+          "name": "LLM API Fundamentals and Prompt Engineering",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "Google Gemini",
+          "yield": "high",
+          "status": "Pending"
+        },
+        {
+          "name": "prompt libraries; zero-shot",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "using APE/OPRO-style methods; evaluation with Promptfoo; systematic A/B testing ",
+          "yield": "medium",
+          "status": "Pending"
+        },
+        {
+          "name": "Semantic Search",
+          "yield": "low",
+          "status": "Pending"
+        },
+        {
+          "name": "construction with FAISS and ChromaDB; hybrid BM25 and dense retrieval; cross-enc",
+          "yield": "low",
+          "status": "Pending"
+        }
+      ]
+    }
+  }
+}
