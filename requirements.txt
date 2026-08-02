@@ -1,0 +1,6 @@
+PyQt6
+numpy
+scikit-learn
+pyqtgraph
+# Optional: video/audio downloads in the Materials tab (media_backend.py)
+# yt-dlp

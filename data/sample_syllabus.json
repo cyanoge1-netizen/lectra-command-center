@@ -1,0 +1,58 @@
+{
+  "semester_1": {
+    "CSE101": {
+      "priority": "HIGH",
+      "status": "Studying",
+      "credits": 3,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": { "attendance": 5, "class_test": 15, "mid": 30, "final": 50 },
+      "topics": [
+        { "name": "Arrays & Pointers", "yield": "high", "status": "Completed" },
+        { "name": "Linked Lists", "yield": "high", "status": "Studying" },
+        { "name": "Trees & Graphs", "yield": "high", "status": "Pending" },
+        { "name": "Sorting Algorithms", "yield": "medium", "status": "Pending" }
+      ]
+    },
+    "CSE102": {
+      "priority": "MEDIUM",
+      "status": "Studying",
+      "credits": 3,
+      "theory_hours": 3,
+      "lab_hours": 1,
+      "marks": { "attendance": 5, "class_test": 15, "mid": 30, "final": 50 },
+      "topics": [
+        { "name": "Boolean Algebra", "yield": "high", "status": "Pending" },
+        { "name": "Karnaugh Maps", "yield": "high", "status": "Pending" },
+        { "name": "Sequential Logic", "yield": "medium", "status": "Pending" }
+      ]
+    },
+    "MATH105": {
+      "priority": "HIGH",
+      "status": "Studying",
+      "credits": 3,
+      "theory_hours": 3,
+      "lab_hours": 0,
+      "marks": { "attendance": 10, "class_test": 10, "mid": 30, "final": 50 },
+      "topics": [
+        { "name": "Linear Equations", "yield": "high", "status": "Completed" },
+        { "name": "Eigenvalues", "yield": "high", "status": "Pending" },
+        { "name": "Laplace Transforms", "yield": "medium", "status": "Pending" }
+      ]
+    }
+  },
+  "semester_2": {
+    "CSE201": {
+      "priority": "MEDIUM",
+      "status": "Pending",
+      "credits": 3,
+      "theory_hours": 3,
+      "lab_hours": 2,
+      "marks": { "attendance": 5, "class_test": 15, "mid": 30, "final": 50 },
+      "topics": [
+        { "name": "Linked Lists (advanced)", "yield": "high", "status": "Pending" },
+        { "name": "Hash Tables", "yield": "high", "status": "Pending" }
+      ]
+    }
+  }
+}
