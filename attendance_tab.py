@@ -22,6 +22,7 @@ from PyQt6.QtWidgets import (
 )
 
 from home_cockpit import WEEKDAY_NAMES, _scan_statuses
+from ui_helpers import make_course_combo, normalize_code, confirm_course_known
 
 STATUS_ORDER = [None, "present", "absent", "cancelled"]
 STATUS_BG = {
@@ -43,15 +44,12 @@ class ClassDialog(QDialog):
 
     def __init__(self, broker, parent=None, slot=None):
         super().__init__(parent)
+        self.broker = broker
         self.setWindowTitle("Edit class" if slot else "Add class")
         self.setMinimumWidth(340)
         form = QFormLayout(self)
 
-        self.course = QComboBox()
-        self.course.setEditable(True)
-        for code in _course_codes(broker):
-            self.course.addItem(code)
-        self.course.lineEdit().setPlaceholderText("e.g. CSE101")
+        self.course = make_course_combo(broker)
 
         self.start = QTimeEdit(QTime(9, 0))
         self.start.setDisplayFormat("HH:mm")
@@ -81,10 +79,16 @@ class ClassDialog(QDialog):
         row.addWidget(ok)
         form.addRow(row)
 
+    def accept(self):
+        self.course.setCurrentText(normalize_code(self.course.currentText()))
+        if not confirm_course_known(self.broker, self, self.course.currentText()):
+            return
+        super().accept()
+
     def slot(self, day):
         start = self.start.time().toString("HH:mm")
         end = self.end.time().toString("HH:mm")
-        course = self.course.currentText().strip()
+        course = normalize_code(self.course.currentText())
         if not course:
             return None
         return {
@@ -94,15 +98,6 @@ class ClassDialog(QDialog):
             "room": self.room.text().strip(),
             "course": course,
         }
-
-
-def _course_codes(broker):
-    codes = []
-    for semester in (broker.get("syllabus.semesters", {}) or {}).values():
-        for code in (semester or {}).keys():
-            if code not in codes:
-                codes.append(code)
-    return codes
 
 
 def _date_for_weekday(anchor, weekday):

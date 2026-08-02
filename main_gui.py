@@ -17,7 +17,7 @@ import os
 import sys
 from datetime import datetime
 
-from PyQt6.QtGui import QGuiApplication
+from PyQt6.QtGui import QGuiApplication, QKeySequence, QShortcut
 from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QTabWidget, QWidget, QVBoxLayout, QLabel,
     QStatusBar, QPushButton, QMessageBox,
@@ -135,6 +135,9 @@ class MainWindow(QMainWindow):
                 widget = PlaceholderTab(self.broker, phase, title)
             self.tabs.addTab(widget, title)
         self.setCentralWidget(self.tabs)
+        for i in range(min(9, self.tabs.count())):
+            QShortcut(QKeySequence(f"Ctrl+{i + 1}"), self,
+                      activated=lambda i=i: self.tabs.setCurrentIndex(i))
 
         from backup_manager import BackupManager
         self.backup_manager = BackupManager(broker=self.broker)
@@ -155,13 +158,10 @@ class MainWindow(QMainWindow):
 
     # ------------------------------------------------------- broker wiring
     def _wire_broker(self):
-        # Tab switching is itself a state mutation → broker → Home Cockpit later.
-        self.tabs.currentChanged.connect(self._on_tab_changed)
+        # Always open on Today Brief (tab 0); the active tab is intentionally
+        # NOT persisted so every launch starts with the daily overview.
         self.broker.state_changed.connect(self._on_broker_state)
         self.broker.state_saved.connect(self._on_broker_saved)
-
-    def _on_tab_changed(self, index):
-        self.broker.set("app.active_tab", index)
 
     def _on_broker_state(self, key, value):
         self.statusBar().showMessage(f"broker: {key} = {value!r}", 4000)

@@ -27,13 +27,14 @@ from PyQt6.QtCore import Qt, QDate
 from PyQt6.QtGui import QColor
 from PyQt6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton,
-    QComboBox, QDateEdit, QLineEdit, QTableWidget, QTableWidgetItem,
+    QDateEdit, QLineEdit, QTableWidget, QTableWidgetItem,
     QFrame, QProgressBar, QListWidget, QListWidgetItem,
     QScrollArea, QDialog, QFormLayout, QCheckBox,
 )
 
 from styles import COLORS
 from syllabus_tab import all_courses, semesters_map
+from ui_helpers import make_course_combo, normalize_code, confirm_course_known
 
 HEAT_EMPTY = "#1A2230"
 HEAT_LEVELS = ["#16324A", "#0E4A6B", "#0A6A8C", "#38A6FF"]
@@ -170,20 +171,14 @@ def _heat_color(count):
 class CustomTaskDialog(QDialog):
     def __init__(self, broker, parent=None, task=None):
         super().__init__(parent)
+        self.broker = broker
         self.setWindowTitle("Edit task" if task else "Add task")
         self.setMinimumWidth(360)
         task = task or {}
         form = QFormLayout(self)
 
         self.title = QLineEdit(task.get("title", ""))
-        self.course = QComboBox()
-        self.course.setEditable(True)
-        codes = []
-        for _sem, code, _course in all_courses(broker):
-            if code not in codes:
-                codes.append(code)
-        for code in codes:
-            self.course.addItem(code)
+        self.course = make_course_combo(broker)
         self.course.lineEdit().setPlaceholderText("optional subject code")
         self.no_due = QCheckBox("No due date")
         self.no_due.setChecked(True)
@@ -213,10 +208,17 @@ class CustomTaskDialog(QDialog):
         row.addWidget(ok)
         form.addRow(row)
 
+    def accept(self):
+        code = normalize_code(self.course.currentText())
+        self.course.setCurrentText(code)
+        if code and not confirm_course_known(self.broker, self, code):
+            return
+        super().accept()
+
     def values(self):
         return {
             "title": self.title.text().strip(),
-            "course": self.course.currentText().strip(),
+            "course": normalize_code(self.course.currentText()),
             "due_date": (None if self.no_due.isChecked()
                          else self.due.date().toString("yyyy-MM-dd")),
         }

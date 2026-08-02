@@ -7,7 +7,7 @@
 # Right:  instructor grid: list pane (left) -> detail panel (right) on click,
 #         with add / edit / delete. Stored in broker profile.instructors.
 
-from PyQt6.QtCore import Qt
+from PyQt6.QtCore import Qt, QTimer
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QFormLayout, QLabel, QLineEdit,
@@ -172,10 +172,10 @@ class ProfilesTab(QWidget):
         root.addWidget(title)
 
         self.onboarding = QLabel(
-            "Fill in your details below and save. Your name, institute and "
-            "CGPA show up in the Home Cockpit, and a photo is included in "
-            "your backups. Start with your Full Name and Course, then add "
-            "your instructors on the right.")
+            "Fill in your details — everything saves automatically as you go. "
+            "Your name, institute and CGPA show up in the Home Cockpit, and a "
+            "photo is included in your backups. Start with your Full Name and "
+            "Course, then add your instructors on the right.")
         self.onboarding.setProperty("panel", True)
         self.onboarding.setProperty("muted", True)
         self.onboarding.setWordWrap(True)
@@ -202,13 +202,19 @@ class ProfilesTab(QWidget):
         for key, label in STUDENT_FIELDS:
             edit = QLineEdit()
             edit.setProperty("mono", key in ("roll_no", "reg_no", "email", "phone"))
+            edit.editingFinished.connect(self._save_student)
             self._student_edits[key] = edit
             self.form.addRow(label, edit)
         root.addLayout(self.form)
 
-        save = QPushButton("Save student profile")
-        save.clicked.connect(self._save_student)
-        root.addWidget(save)
+        self.cgpa_spin.editingFinished.connect(self._save_student)
+
+        hint = QLabel("Your details save automatically as you go.")
+        hint.setProperty("muted", True)
+        root.addWidget(hint)
+        self.saved_lbl = QLabel("")
+        self.saved_lbl.setProperty("role", "active")
+        root.addWidget(self.saved_lbl)
         root.addStretch(1)
 
         scroll = QScrollArea()
@@ -338,14 +344,27 @@ class ProfilesTab(QWidget):
         if path:
             self.broker.set("profile.student.photo_path", path)
             self._load_student_photo(path)
+            self._flash_saved()
 
     def _save_student(self):
+        student = self.broker.get("profile.student", {}) or {}
         updates = {
             "profile.student." + key: edit.text().strip()
             for key, edit in self._student_edits.items()
         }
         updates["profile.student.cgpa"] = round(self.cgpa_spin.value(), 2)
+        pending = {key: value for key, value in updates.items()
+                   if str(student.get(key.rsplit(".", 1)[-1], "") or "") != value}
+        if not pending:
+            return
         self.broker.set_many(updates)
+        self._flash_saved()
+
+    def _flash_saved(self):
+        self.saved_lbl.setText("saved \u2713")
+        self.saved_lbl.style().unpolish(self.saved_lbl)
+        self.saved_lbl.style().polish(self.saved_lbl)
+        QTimer.singleShot(1600, lambda: self.saved_lbl.setText(""))
 
     # ------------------------------------------------- instructors
     def _instructors(self):

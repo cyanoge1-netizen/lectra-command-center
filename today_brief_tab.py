@@ -31,7 +31,7 @@ import subprocess
 from datetime import date, datetime, timedelta
 
 from PyQt6.QtCore import Qt, QDate, QTime, QTimer
-from PyQt6.QtGui import QColor
+from PyQt6.QtGui import QColor, QKeySequence, QShortcut
 from PyQt6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QGridLayout, QLabel, QPushButton,
     QFrame, QTableWidget, QTableWidgetItem, QHeaderView, QListWidget,
@@ -40,6 +40,7 @@ from PyQt6.QtWidgets import (
 )
 
 from styles import COLORS
+from ui_helpers import make_course_combo, normalize_code, confirm_course_known
 
 DAY_INDEX = {"sun": 0, "mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5, "sat": 6}
 MARK = {"done": "\u2713", "in": "\u25CF", "up": "\u25CB", "cancelled": "\u2715"}
@@ -195,15 +196,12 @@ def parse_routine_pdf(path):
 class RoutineDialog(QDialog):
     def __init__(self, broker, parent=None, slot=None):
         super().__init__(parent)
+        self.broker = broker
         self.setWindowTitle("Edit class" if slot else "Add class")
         self.setMinimumWidth(360)
         form = QFormLayout(self)
         slot = slot or {}
-        self.course = QComboBox()
-        self.course.setEditable(True)
-        for code in _course_codes(broker):
-            self.course.addItem(code)
-        self.course.lineEdit().setPlaceholderText("e.g. CSE101")
+        self.course = make_course_combo(broker)
         self.type = QComboBox()
         self.type.addItems(["class", "lab"])
         self.start = QTimeEdit(QTime.fromString(slot.get("start", "09:00"), "HH:mm"))
@@ -234,9 +232,15 @@ class RoutineDialog(QDialog):
         row.addWidget(ok)
         form.addRow(row)
 
+    def accept(self):
+        self.course.setCurrentText(normalize_code(self.course.currentText()))
+        if not confirm_course_known(self.broker, self, self.course.currentText()):
+            return
+        super().accept()
+
     def values(self):
         return {
-            "course": self.course.currentText().strip(),
+            "course": normalize_code(self.course.currentText()),
             "type": self.type.currentText(),
             "start": self.start.time().toString("HH:mm"),
             "end": self.end.time().toString("HH:mm"),
@@ -245,26 +249,16 @@ class RoutineDialog(QDialog):
         }
 
 
-def _course_codes(broker):
-    codes = set()
-    for semester in (broker.get("syllabus.semesters", {}) or {}).values():
-        codes.update((semester or {}).keys())
-    return sorted(codes)
-
-
 class HomeworkDialog(QDialog):
     def __init__(self, broker, parent=None, hw=None, kind="homework"):
         super().__init__(parent)
+        self.broker = broker
         kind_label = kind.capitalize()
         self.setWindowTitle(f"Edit {kind}" if hw else f"Add {kind}")
         self.setMinimumWidth(360)
         hw = hw or {}
         form = QFormLayout(self)
-        self.course = QComboBox()
-        self.course.setEditable(True)
-        for code in _course_codes(broker):
-            self.course.addItem(code)
-        self.course.lineEdit().setPlaceholderText("e.g. CSE101")
+        self.course = make_course_combo(broker)
         self.title = QLineEdit(hw.get("title", ""))
         self.due = QDateEdit(QDate.fromString(hw.get("due_date") or "", "yyyy-MM-dd")
                              if hw.get("due_date") else QDate.currentDate())
@@ -287,9 +281,15 @@ class HomeworkDialog(QDialog):
         row.addWidget(ok)
         form.addRow(row)
 
+    def accept(self):
+        self.course.setCurrentText(normalize_code(self.course.currentText()))
+        if not confirm_course_known(self.broker, self, self.course.currentText()):
+            return
+        super().accept()
+
     def values(self):
         return {
-            "course": self.course.currentText().strip(),
+            "course": normalize_code(self.course.currentText()),
             "title": self.title.text().strip(),
             "due_date": self.due.date().toString("yyyy-MM-dd"),
             "instructor": self.instructor.text().strip(),
@@ -368,11 +368,7 @@ class ExamsDialog(QDialog):
         dialog = QDialog(self)
         dialog.setWindowTitle("Exam / deadline")
         form = QFormLayout(dialog)
-        course = QComboBox()
-        course.setEditable(True)
-        for code in _course_codes(self.broker):
-            course.addItem(code)
-        course.lineEdit().setPlaceholderText("e.g. CSE101")
+        course = make_course_combo(self.broker)
         title = QLineEdit(exam.get("title", ""))
         date_edit = QDateEdit(
             QDate.fromString(exam.get("date") or "", "yyyy-MM-dd")
@@ -397,7 +393,10 @@ class ExamsDialog(QDialog):
             course.setCurrentText(exam["course"])
         if dialog.exec() != QDialog.DialogCode.Accepted:
             return None
-        return {"course": course.currentText().strip(),
+        code = normalize_code(course.currentText())
+        if not confirm_course_known(self.broker, dialog, code):
+            return None
+        return {"course": code,
                 "title": title.text().strip(),
                 "date": date_edit.date().toString("yyyy-MM-dd"),
                 "instructor": instructor.text().strip()}
@@ -408,6 +407,8 @@ class TodayBriefTab(QWidget):
         super().__init__()
         self.broker = broker
         self._build_ui()
+        QShortcut(QKeySequence("Ctrl+N"), self,
+                  activated=lambda: self._add_entry("homework"))
         self.broker.section_changed.connect(self._on_section_changed)
         self._timer = QTimer(self)
         self._timer.setInterval(30000)
