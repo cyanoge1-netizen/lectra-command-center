@@ -42,9 +42,34 @@ python3 main_gui.py
 
 ---
 
-## 📦 Packaging
+## 📦 Packaging & Building
 
-Release zips (`lectra_beta_0.5.zip`) are produced clean: all source modules,
-`data/` seed files, and `system_state.json` (the app's state schema) — with
-`__pycache__/` and `backups/` excluded. Restore a backup via the Backup &
-Restore dialog to repopulate any environment.
+### Option A — Release zip (fast, no extra deps)
+Rebuild `lectra_beta_0.5.zip` from source: all source modules, `data/` seed
+files, and `system_state.json`, excluding `__pycache__/` and `backups/`:
+
+```bash
+# from the project root
+zip -r ../lectra_beta_0.5.zip . -x "*__pycache__*" -x "backups/*" -x ".git/*"
+```
+
+### Option B — Standalone executable (PyInstaller)
+Build a one-file desktop executable. This pulls the full dependency graph
+(PyQt6 + scikit-learn + pyqtgraph), so install may take a while and the build
+produces a large binary (~120–250 MB):
+
+```bash
+pip install pyinstaller
+python -m PyInstaller --noconfirm --onefile --windowed --name lectra \
+  --hidden-import today_brief_tab --hidden-import home_cockpit \
+  --hidden-import profiles_tab --hidden-import syllabus_tab \
+  --hidden-import attendance_tab --hidden-import life_tab \
+  --hidden-import materials_tab --hidden-import marks_trends_tab \
+  --hidden-import syllabus_checklist_tab --hidden-import backup_dialog \
+  --hidden-import backup_manager --hidden-import databroker \
+  --hidden-import predictive_engine --hidden-import styles \
+  --hidden-import media_backend --add-data "data:data" main_gui.py
+```
+
+The executable lands at `dist/lectra` (`lectra.exe` on Windows).
+
