@@ -53,6 +53,7 @@ DEFAULT_STATE = {
         "records": {},
         "days_per_week": 5,
         "overrides": {},
+        "holidays": [],
         "risk_threshold": 75,
     },
     "focus": {

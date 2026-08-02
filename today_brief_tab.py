@@ -50,6 +50,20 @@ def sun0_index(d):
     return (d.weekday() + 1) % 7
 
 
+def is_off_day(broker, d=None):
+    """True when `d` (default today) is a weekend or listed holiday.
+
+    Weekend = any day index >= attendance.days_per_week (default 5, i.e.
+    Sunday-Thursday are study days). Holidays come from attendance.holidays.
+    """
+    d = d or date.today()
+    n = int(broker.get("attendance.days_per_week", 5) or 5)
+    if sun0_index(d) >= n:
+        return True
+    holidays = broker.get("attendance.holidays", []) or []
+    return d.isoformat() in holidays
+
+
 def _time_now():
     return datetime.now().strftime("%H:%M")
 
@@ -531,6 +545,10 @@ class TodayBriefTab(QWidget):
             b = QPushButton(text)
             b.clicked.connect(fn)
             override_row.addWidget(b)
+        self.holiday_btn = QPushButton("Holiday today")
+        self.holiday_btn.setCheckable(True)
+        self.holiday_btn.clicked.connect(self._toggle_holiday_today)
+        override_row.addWidget(self.holiday_btn)
         override_row.addStretch(1)
         layout.addLayout(override_row)
         return card
@@ -652,21 +670,27 @@ class TodayBriefTab(QWidget):
         self.date_lbl.setText(today.strftime("%A").upper())
         self.subdate_lbl.setText(
             f"{today.strftime('%d')} · {today.strftime('%m')} · {today.year}")
+        self.holiday_btn.setChecked(
+            date_str in (self.broker.get("attendance.holidays", []) or []))
         start = self.broker.get("syllabus.semester_start")
-        week = week_number(start, today)
-        if week is None:
-            self.week_lbl.setText("Semester week: —  (set a start date)")
-            self.week_lbl.setProperty("muted", True)
-        elif week < 0:
-            self.week_lbl.setText(
-                f"Semester starts in {-week} day{'s' if -week != 1 else ''}")
-            self.week_lbl.setProperty("muted", True)
+        if is_off_day(self.broker, today):
+            self.week_lbl.setText("🎉 Today is off — relax")
+            self.week_lbl.setProperty("role", "predictive")
         else:
-            days_elapsed = (today - date.fromisoformat(start)).days
-            day = days_elapsed % 7 + 1
-            self.week_lbl.setText(
-                f"WEEK {week} OF SEMESTER · day {day} of 7")
-            self.week_lbl.setProperty("role", "active")
+            week = week_number(start, today)
+            if week is None:
+                self.week_lbl.setText("Semester week: —  (set a start date)")
+                self.week_lbl.setProperty("muted", True)
+            elif week < 0:
+                self.week_lbl.setText(
+                    f"Semester starts in {-week} day{'s' if -week != 1 else ''}")
+                self.week_lbl.setProperty("muted", True)
+            else:
+                days_elapsed = (today - date.fromisoformat(start)).days
+                day = days_elapsed % 7 + 1
+                self.week_lbl.setText(
+                    f"WEEK {week} OF SEMESTER · day {day} of 7")
+                self.week_lbl.setProperty("role", "active")
         self.week_lbl.style().unpolish(self.week_lbl)
         self.week_lbl.style().polish(self.week_lbl)
 
@@ -704,6 +728,10 @@ class TodayBriefTab(QWidget):
         overrides = self.broker.get("attendance.overrides", {}) or {}
         slots = effective_slots(routine, overrides, date_str, day)
         self.routine_table.setRowCount(len(slots))
+        if is_off_day(self.broker):
+            self.routine_table.setRowCount(0)
+            self.lab_lbl.setText("🎉 Day off — no classes, relax")
+            return
         labs = []
         for ri, slot in enumerate(slots):
             cancelled = slot.get("overridden") == "cancelled"
@@ -878,6 +906,15 @@ class TodayBriefTab(QWidget):
             "end": end.time().toString("HH:mm"),
             "room": room.text().strip(),
         })
+
+    def _toggle_holiday_today(self):
+        today = date.today().isoformat()
+        holidays = list(self.broker.get("attendance.holidays", []) or [])
+        if today in holidays:
+            holidays.remove(today)
+        else:
+            holidays.append(today)
+        self.broker.set("attendance.holidays", holidays)
 
     def _restore_today(self):
         key = self._selected_slot()

@@ -76,6 +76,15 @@
   in N days"). The set-start dialog also pins the date format to `yyyy-MM-dd`
   so the chosen date is unambiguous.
 
+## [Beta 0.6] - 2026-08-02 (cont. 5)
+### Added
+- **Off-day awareness**: Today Brief now treats weekends (days beyond
+  `attendance.days_per_week`, default 5 = Sun–Thu) and listed holidays as
+  days off — showing "🎉 Today is off — relax" instead of the semester week,
+  and clearing the routine with "🎉 Day off — no classes, relax". A
+  **Holiday today** toggle in the routine card marks/unmarks the current date
+  in `attendance.holidays`.
+
 ## [Phase 1 Foundation] - 2026-08-01
 - `databroker.py` centralized state store (atomic JSON persistence,
   per-section signals), global QSS skin (`styles.py`), 9-tab skeleton,
