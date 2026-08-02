@@ -93,7 +93,12 @@ def effective_slots(routine, overrides, date_str, day):
 
 
 def week_number(semester_start, today=None):
-    """1-based week of the semester, or None if no start date is set."""
+    """1-based week of the semester.
+
+    Returns None if no start date is set, a negative number (days until
+    start) when the semester has not started yet, or the whole week number
+    (>= 1) once it has.
+    """
     if not semester_start:
         return None
     today = today or date.today()
@@ -101,7 +106,10 @@ def week_number(semester_start, today=None):
         start = date.fromisoformat(semester_start)
     except (TypeError, ValueError):
         return None
-    return max(1, (today - start).days // 7 + 1)
+    days = (today - start).days
+    if days < 0:
+        return days
+    return days // 7 + 1
 
 
 def next_deadline(exams, homework, assignments, today=None):
@@ -649,8 +657,15 @@ class TodayBriefTab(QWidget):
         if week is None:
             self.week_lbl.setText("Semester week: —  (set a start date)")
             self.week_lbl.setProperty("muted", True)
+        elif week < 0:
+            self.week_lbl.setText(
+                f"Semester starts in {-week} day{'s' if -week != 1 else ''}")
+            self.week_lbl.setProperty("muted", True)
         else:
-            self.week_lbl.setText(f"WEEK {week} OF SEMESTER")
+            days_elapsed = (today - date.fromisoformat(start)).days
+            day = days_elapsed % 7 + 1
+            self.week_lbl.setText(
+                f"WEEK {week} OF SEMESTER · day {day} of 7")
             self.week_lbl.setProperty("role", "active")
         self.week_lbl.style().unpolish(self.week_lbl)
         self.week_lbl.style().polish(self.week_lbl)
@@ -1204,6 +1219,7 @@ class TodayBriefTab(QWidget):
         date_edit = QDateEdit(
             QDate.fromString(current, "yyyy-MM-dd") if current
             else QDate.currentDate())
+        date_edit.setDisplayFormat("yyyy-MM-dd")
         date_edit.setCalendarPopup(True)
         form.addRow("Start date", date_edit)
         ok = QPushButton("Save")

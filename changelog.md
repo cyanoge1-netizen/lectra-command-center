@@ -68,6 +68,14 @@
   the course-details panel header (`_close_drawer` clears the table selection
   so the panel collapses). Previously there was no way to close it.
 
+## [Beta 0.6] - 2026-08-02 (cont. 4)
+### Fixed
+- **Precise semester week**: Today Brief now shows the exact week — e.g.
+  `WEEK 4 OF SEMESTER · day 1 of 7` — and no longer fakes "WEEK 1" when the
+  semester start date is still in the future (it now reads "Semester starts
+  in N days"). The set-start dialog also pins the date format to `yyyy-MM-dd`
+  so the chosen date is unambiguous.
+
 ## [Phase 1 Foundation] - 2026-08-01
 - `databroker.py` centralized state store (atomic JSON persistence,
   per-section signals), global QSS skin (`styles.py`), 9-tab skeleton,
