@@ -267,7 +267,15 @@ class SyllabusTab(QWidget):
         self.drawer_title = QLabel("Select a course")
         self.drawer_title.setProperty("role", "active")
         self.drawer_title.setStyleSheet("font-size: 15px; font-weight: 700;")
-        outer.addWidget(self.drawer_title)
+        title_row = QHBoxLayout()
+        title_row.addWidget(self.drawer_title, 1)
+        close_btn = QPushButton("✕")
+        close_btn.setObjectName("drawer_close_btn")
+        close_btn.setFixedWidth(26)
+        close_btn.setToolTip("Close details")
+        close_btn.clicked.connect(self._close_drawer)
+        title_row.addWidget(close_btn)
+        outer.addLayout(title_row)
 
         status_row = QHBoxLayout()
         status_row.addWidget(QLabel("Status"))
@@ -423,10 +431,16 @@ class SyllabusTab(QWidget):
         sem, code = self._selection
         return (sem, code), (semesters_map(self.broker).get(sem) or {}).get(code)
 
+    def _close_drawer(self):
+        self.drawer.hide()
+        self._selection = None
+        self.table.clearSelection()
+
     def _show_drawer(self, selection):
         if not selection:
             self.drawer.hide()
             return
+
         sem, code = selection
         course = (semesters_map(self.broker).get(sem) or {}).get(code)
         if not course:

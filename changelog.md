@@ -62,6 +62,12 @@
   topics. Import via Syllabus Engine → Import syllabus JSON (merges into
   existing semesters).
 
+## [Beta 0.6] - 2026-08-02 (cont. 3)
+### Fixed
+- **Syllabus Engine drawer is now dismissible**: added a `✕` close button in
+  the course-details panel header (`_close_drawer` clears the table selection
+  so the panel collapses). Previously there was no way to close it.
+
 ## [Phase 1 Foundation] - 2026-08-01
 - `databroker.py` centralized state store (atomic JSON persistence,
   per-section signals), global QSS skin (`styles.py`), 9-tab skeleton,
