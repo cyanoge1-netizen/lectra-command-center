@@ -4,3 +4,4 @@ backups/
 data/profile_photos/
 *.token
 session.token
+system_state.json
